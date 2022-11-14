@@ -1,0 +1,68 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Luckiest Guy', cursive;
+
+    background-image: url('../img/ayi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: var(--red-color);
+    height: 20vh;
+}
+.container{
+    width: 95%;
+    margin: auto;
+ 
+}
+.nav{
+    overflow: hidden;
+    background: var(--red-color);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .app-head{
+    font-size: 32px;
+}
+.galaxy-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.galaxy-list li{
+    margin: 5px 0px 0px;
+    padding: 0 15px;
+    font-size: 20px;
+    
+}
+.galaxy-list li a{
+    text-transform: capitalize;
+    text-decoration: none;
+        color: white;
+        transition: all 0.3s linear;
+    
+}
+.galaxy-list li a:hover{
+    color: black;
+}
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome h1{
+    color: white;
+    font-size: 80px;
+}
